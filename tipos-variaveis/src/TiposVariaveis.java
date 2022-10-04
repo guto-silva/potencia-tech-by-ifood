@@ -8,11 +8,15 @@ public class TiposVariaveis {
         double salario = 2500.0;
         long cpf = 11122233344L;
 
+        final float PI = 3.1415F; //Constante
+
         System.out.println(idade);
         System.out.println(ano);
         System.out.println(cep);
         System.out.println(pi);
         System.out.println(salario);
         System.out.println(cpf);
+
+        System.out.println(PI);
     }
 }
