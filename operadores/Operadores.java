@@ -29,5 +29,14 @@ public class Operadores {
       System.out.println(resultado == numero ? 1 : 0);
       System.out.println(resultado >= numero ? 1 : 0);
 
+      // Desafio #2
+      soma = 0;
+      for(int i = 18; i >= 3; i--) {
+        if(i % 3 == 0) {
+           soma += i;
+        }
+      }
+      System.out.println(soma);
+
     }
 }
